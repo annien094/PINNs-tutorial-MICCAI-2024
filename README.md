@@ -1,8 +1,6 @@
 # Data Learning meets Computational Modelling: Successfully using Physics-Informed Neural Networks for Biomedical Applications
 ## A MICCAI 2024 tutorial in Marrakesh, Morocco (6th October 2024)
 
-*This webpage will be updated and the materials for the tutorial will be uploaded to the GitHub repository in due course.
-
 ### Overview:
 This tutorial aims to provide an introduction to physics-informed neural networks (PINNs) using examples from medical imaging. It is expected that by the end of the session attendees will be able to use PINNs to solve their own problems related to medical imaging and beyond. PINNs are a type of deep learning framework that explicitly incorporates physical equations into the learning process as a regulariser, such that the network approximates the data whilst conforming to the equations and associated boundary and initial conditions. This enables them to learn with a relatively small amount of data compared to conventional neural networks and provides trust that the NNs' inferences obey the known physics laws. 
 
