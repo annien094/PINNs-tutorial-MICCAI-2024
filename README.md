@@ -32,7 +32,7 @@ In addition, there are two hands-on exercises that cover examples from neuroscie
 3. Data used in the second tutorial exercise: [`APdata.mat`](APdata.mat)
 
 ## Related work
-We also encourage you to have a look at the works [`PINNing Cerebral Blood Flow`](https://github.com/cgalaz01/supinn) and [`PINNs for cardiac electrophysiology in 3D and fibrillatory conditions`](https://arxiv.org/pdf/2409.12712), for more examples and in-depth discussions of the implementation of PINNs.
+We also encourage you to have a look at the work [`PINNing Cerebral Blood Flow`](https://github.com/cgalaz01/supinn) and [`PINNs for cardiac electrophysiology in 3D and fibrillatory conditions`](https://arxiv.org/pdf/2409.12712), for more examples and in-depth discussions of the implementation of PINNs.
 
 ## Organising Team:
 Marta Varela (National Heart and Lung Institute, Imperial College London), <br>
