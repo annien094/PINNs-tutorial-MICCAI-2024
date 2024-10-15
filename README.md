@@ -22,13 +22,13 @@ In this tutorial, we:
   - generalisibility
 
 
-In addition, there are two hands-on exercises that cover examples from neuroscience 🧠 and cardiovascular medicine 🫀. In detail:
-1. ODE example: Estimate cerebral perfusion in an infant using data from arterial spin labelling (ASL) MRI.
-2. PDE example: Model the propagation of electrical signals in cardiac tissue in a 2D rectangular geometry, using the Aliev-Panfilov model.
+In addition, there are two hands-on exercises that cover examples from neuroscience and cardiovascular medicine. In detail:
+1. 🧠 ODE example: Estimate cerebral perfusion in an infant using data from arterial spin labelling (ASL) MRI.
+2. 🫀 PDE example: Model the propagation of electrical signals in cardiac tissue in a 2D rectangular geometry, using the Aliev-Panfilov model.
 
 ## What's included in the repository
 1. Presentation slides: [`PINNsTutorial1_Oct2024.pdf`](PINNsTutorial1_Oct2024.pdf) and [`PINNsTutorial2_Oct2024.pdf`](PINNsTutorial2_Oct2024.pdf)
-2. Two hands-on tutorial exercises: [`PINNs_ASL.ipynb`](PINNs_ASL.ipynb) and [`PINNs_AP2D.ipynb`](PINNs_AP2D.ipynb)
+2. Two hands-on tutorial exercises: 🧠[`PINNs_ASL.ipynb`](PINNs_ASL.ipynb) and 🫀[`PINNs_AP2D.ipynb`](PINNs_AP2D.ipynb)
 3. Data used in the second tutorial exercise: [`APdata.mat`](APdata.mat)
 
 ## Related work
