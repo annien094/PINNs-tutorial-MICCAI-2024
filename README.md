@@ -1,20 +1,47 @@
 # Data Learning meets Computational Modelling: Successfully using Physics-Informed Neural Networks for Biomedical Applications
-## A MICCAI 2024 tutorial in Marrakesh, Morocco (6th October 2024)
+### A MICCAI 2024 tutorial in Marrakesh, Morocco 🇲🇦
 
-### Overview:
-This tutorial aims to provide an introduction to physics-informed neural networks (PINNs) using examples from medical imaging. It is expected that by the end of the session attendees will be able to use PINNs to solve their own problems related to medical imaging and beyond. PINNs are a type of deep learning framework that explicitly incorporates physical equations into the learning process as a regulariser, such that the network approximates the data whilst conforming to the equations and associated boundary and initial conditions. This enables them to learn with a relatively small amount of data compared to conventional neural networks and provides trust that the NNs' inferences obey the known physics laws. 
+Date: 6th October 2024 <br>
+Time: 8:00am-12:30pm <br>
+Location: Room Amandier, Conference Centre
 
-The tutorial will:
-- Introduce the architecture of PINNs and their unique advantages and potentialities for medical problems.
-- Compare PINNs with conventional neural networks, numerical solvers for ordinary and partial differential equations (ODEs, PDEs) and model parameterisation methods, highlighting their advantages as well as spaces for development.
+## Overview:
+This tutorial aims to provide an introduction to physics-informed neural networks (PINNs) using examples from biomedical applications. It is expected that by the end of the session attendees will be able to use PINNs to solve their own problems related to medical imaging and beyond. PINNs are a type of deep learning framework that explicitly incorporates physical equations into the learning process as a regulariser, such that the network approximates the data whilst conforming to the equations and associated boundary and initial conditions. This enables them to learn with a relatively small amount of data compared to conventional neural networks and provides trust that the NNs' inferences obey the known physics laws. 
+
+In this tutorial, we:
+- Give an introduction to PINNs, including:  
+  - the motivation and types of problems of interest
+  - the architecture of a PINN
+  - some considerations when designing PINNs
 - Demonstrate how PINNs can be used in forward mode to solve differential equations; and inverse mode to estimate model parameters, with examples related to biomedical applications.
-- Introduce operator learning with physics-informed DeepONets, where we learn the solution operator of parametric PDEs (maps between infinite dimensional function spaces) instead of functions (maps between finite dimensional vector spaces). This could be useful for surrogate modelling.
-- Discuss opportunities for PINNs in the biomedical setting.
+- Discuss opportunities and advantages for PINNs in the biomedical setting.
+- Dicuss drawbacks of PINNs and recent developments to address them, including:
+  - difficulties in converging
+  - difficulties with long time ranges
+  - difficulties with complicated geometries
+  - generalisibility
 
-In addition, there will be a hands-on code-based session that covers examples from cardiovascular medicine and neuroscience. In detail:
-- ODE example: Given some experimental data, use PINNs to parameterise a popular ODE-based model of cardiac electrophysiology -- the single-cell Fenton-Karma model.
-- PDE example: Given some electroencephalographic (EEG) signals, use PINNs to solve the Poisson PDE and locate the electrical sources of the measured signals.
-- Operator learning example: Use PINNs to learn the solutions to the 2D diffusion eikonal equation using as inputs Gaussian Random Fields that represent the likely distributions of activation times in the heart.
 
-### Organising Team:
-Marta Varela (National Heart and Lung Institute, Imperial College London), Ching-En Chiu (Department of Electrical and Electronic Engineering, Imperial College London), Christoforos Galazis (National Heart and Lung Institute, Imperial College London), Yu Hon On (National Heart and Lung Institute, Imperial College London), Danilo Mandic (Department of Electrical and Electronic Engineering, Imperial College London), Phil Livermore (School of Earth and Environment, University of Leeds), Zack Xuereb Conti (Data-Centric Engineering / TRIC:DT, The Alan Turing Institute, London)
+In addition, there are two hands-on exercises that cover examples from neuroscience and cardiovascular medicine. In detail:
+1. ODE example: Estimate cerebral perfusion in an infant using data from arterial spin labelling (ASL) MRI.
+2. PDE example: Model the propagation of electrical signals in cardiac tissue in a 2D rectangular geometry, using the Aliev-Panfilov model.
+
+## What's included in the repository
+1. Presentation slides: [`PINNsTutorial1_Oct2024.pdf`](PINNsTutorial1_Oct2024.pdf) and [`PINNsTutorial2_Oct2024.pdf`](PINNsTutorial2_Oct2024.pdf)
+2. Two hands-on tutorial exercises: [`PINNs_ASL.ipynb`](PINNs_ASL.ipynb) and [`PINNs_AP2D.ipynb`](PINNs_AP2D.ipynb)
+3. Data used in the second tutorial exercise: [`APdata.mat`](APdata.mat)
+
+### Related work
+We also encourage you to have a look at the works [`PINNing Cerebral Blood Flow`](https://github.com/cgalaz01/supinn) and [`PINNs for cardiac electrophysiology in 3D and fibrillatory conditions`](https://arxiv.org/pdf/2409.12712), for more examples and in-depth discussions of the implementation of PINNs.
+
+## Organising Team:
+Marta Varela (National Heart and Lung Institute, Imperial College London), <br>
+Annie Ching-En Chiu (Department of Electrical and Electronic Engineering, Imperial College London),<br>
+Christoforos Galazis (National Heart and Lung Institute, Imperial College London), <br>
+Yu Hon On (National Heart and Lung Institute, Imperial College London), <br>
+Danilo Mandic (Department of Electrical and Electronic Engineering, Imperial College London), <br>
+Phil Livermore (School of Earth and Environment, University of Leeds),<br>
+Zack Xuereb Conti (Data-Centric Engineering / TRIC:DT, The Alan Turing Institute, London)
+
+### Contact
+Feel free to reach out at marta.varela@imperial.ac.uk or ching-en.chiu18@imperial.ac.uk if you have any questions or feedback on this tutorial! We hope you enjoy.
