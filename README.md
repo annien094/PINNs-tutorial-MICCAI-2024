@@ -46,4 +46,4 @@ Phil Livermore (School of Earth and Environment, University of Leeds),<br>
 Zack Xuereb Conti (Data-Centric Engineering / TRIC:DT, The Alan Turing Institute, London)
 
 ### Contact
-Feel free to reach out at marta.varela@imperial.ac.uk or ching-en.chiu18@imperial.ac.uk if you have any questions or feedback on this tutorial! We hope you enjoy(ed) it 🙂
+Feel free to reach out at marta.varela@imperial.ac.uk or ching-en.chiu18@imperial.ac.uk if you have any questions or feedback on this tutorial! We hope you enjoy(ed) it 🙂.
